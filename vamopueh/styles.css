@@ -1,3 +1,4 @@
+
 body {
     margin: 0 auto;
     padding: 0px;
@@ -125,3 +126,135 @@ img:hover {
     background: rgb(128, 187, 236);
     border: 1px solid rgb(87, 97, 97);
   }
+
+/*HEADER*/
+.encab-pag{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 217, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    height: 60px;
+}
+
+.encab-pag .logo{
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.encab-pag .nav-principal-left{
+    float: left;
+}
+.encab-pag .nav-principal-right{
+    float: left;
+}
+
+.nav-principal-left li{
+    float: left;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+.nav-principal-right li{
+    float: left;
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+.nav-principal-left li a{
+    color: #44627A;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 80px;
+}
+.nav-principal-right li a{
+    color: #44627A;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 80px;
+}
+
+.nav-principal-left li a:hover{
+    color: #4C9ACC;
+}
+.nav-principal-right li a:hover{
+    color: #4C9ACC;
+}
+
+
+
+
+/*FOOTER*/
+.footer{
+    border: solid springgreen;
+    height: 50px;
+    width: 100%;
+    left: 0;
+    background: rgb(201, 223, 4);
+    position: fixed;
+    bottom: 0;
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.a{
+    text-align: center;
+    text-transform: capitalize;
+    flex-grow: 1;
+    
+}
+
+.b{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-grow: 2;
+    
+}
+
+.b a:hover{
+    color: white;
+}
+
+.c{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.c li:hover{
+    cursor: pointer;
+    color: rgb(201, 223, 4);
+}
+
+.c a{
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: white;
+    color: rgb(201, 223, 4);
+    text-align: center;
+    line-height: 44px;
+}
+
+.icon a:hover{
+    background:rgb(201, 223, 4);
+    color: white;
+}
