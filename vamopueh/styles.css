@@ -70,7 +70,10 @@
     border: solid springgreen;
     height: 50px;
     width: 100%;
+    left: 0;
     background: rgb(201, 223, 4);
+    position: fixed;
+    bottom: 0;
 }
 
 .container-footer{
