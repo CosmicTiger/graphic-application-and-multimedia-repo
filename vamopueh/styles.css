@@ -18,6 +18,8 @@
     float: left;
     padding-top: 10px;
     box-sizing: border-box;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .encab-pag .nav-principal-left{
