@@ -2,7 +2,7 @@
 body {
     margin: 0 auto;
     font-family: 'Source Sans Pro', sans-serif;
-    text-align: left;
+    /* text-align: left; */
 }
 
 p {
@@ -10,7 +10,7 @@ p {
 }
 
 .Menu{
-    padding-top: 100px;
+    padding-top: 90px;
 }
 
 .row {
@@ -131,6 +131,7 @@ p {
   }
 
 /*HEADER*/
+
 .encab-pag{
     height: 80px;
     width: 100%;
@@ -142,7 +143,7 @@ p {
     justify-content: center;
 }
 
-.logo img{
+ .logo img{
     height: 60px;
 }
 
@@ -213,7 +214,6 @@ p {
     text-align: center;
     text-transform: capitalize;
     flex-grow: 1;
-    
 }
 
 .b{
