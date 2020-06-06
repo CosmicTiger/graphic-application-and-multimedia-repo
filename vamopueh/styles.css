@@ -200,7 +200,7 @@ p {
 
 /*FOOTER*/
 .footer{
-    background: rgb(201, 223, 4);
+    background: rgb(255, 217, 0);
     padding-top: 25px;
 }
 
@@ -210,22 +210,36 @@ p {
     justify-content: space-evenly;
 }
 
-.a{
-    text-align: center;
-    text-transform: capitalize;
+.a li{
+    text-align: start;
+    text-transform: uppercase;
     flex-grow: 1;
+    color: #44627A;
+    text-decoration: none;
+    line-height: 20px;
+    list-style-type: none;
 }
 
 .b{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    flex-grow: 2;
-    
+    flex-grow: 2; 
+     
+}
+
+.b a{
+    text-transform: uppercase;
+    text-decoration-line: none;
+    color: #44627A;
 }
 
 .b a:hover{
     color: white;
+}
+
+.b p{
+    align-self: flex-end;
 }
 
 .c{
@@ -236,23 +250,23 @@ p {
 }
 
 
-.c li:hover{
-    cursor: pointer;
-    color: rgb(201, 223, 4);
-}
-
 .c a{
     display: block;
     width: 44px;
     height: 44px;
     border-radius: 50%;
     background: white;
-    color: rgb(201, 223, 4);
+    color: rgb(255, 217, 0);
     text-align: center;
     line-height: 44px;
 }
 
 .icon a:hover{
-    background:rgb(201, 223, 4);
+    background:rgb(255, 217, 0);
     color: white;
+}
+
+.copyright{
+    color:#44627A;
+    text-transform: capitalize;
 }
